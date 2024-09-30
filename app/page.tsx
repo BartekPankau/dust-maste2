@@ -1,5 +1,7 @@
 import Image from "next/image";
 import {text} from "node:stream/consumers";
+import '../app/globals.css'; // zakładając, że plik znajduje się w katalogu app
+import '../../supabaseClient.js'; // zakładając, że plik znajduje się w katalogu głównym
 
 
 
